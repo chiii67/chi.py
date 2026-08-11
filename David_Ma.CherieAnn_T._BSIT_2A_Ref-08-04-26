@@ -1,0 +1,27 @@
+name=str("cherie")
+print(name)
+
+age=int("19")
+print(age)
+
+meowmeow=bool("True")
+print(meowmeow)
+
+weight=float(45.67)
+print(weight)
+
+
+class Profie:
+    name=str("cherie")
+    age=str("19")
+    add=str("sta.cruz lubao, pampanga")
+    favcolor=str("pink")
+    print("hello! my name is "+ name + ". i'm " + age + "yrs old. i lived in " + add + " and my favorite color is " + favcolor + ".")
+
+
+class Profile:
+    name = input("Enter your name: ")
+    age = input("How old are you?: ")
+    address = input("Where do u live?: ")
+    color = input("What is your favorite color?: ")
+    print(" My name is " + name + " Im " + age + " yrs old. i lived in " + address + " and my favorite color is " + color + ".")
